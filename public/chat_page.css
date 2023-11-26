@@ -65,6 +65,7 @@ body{
     height: 70px;
 }
 .message{
+    border: none;
     height: 94%;
     border-bottom-left-radius: 20px;
     width: 80%;

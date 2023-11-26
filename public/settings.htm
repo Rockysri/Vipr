@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="settings.css">
+    <script src="profilePic.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@100;300&family=Noto+Sans:ital,wght@0,100;1,100&family=Oswald:wght@200;700&family=Poppins:ital,wght@0,200;1,100&family=Roboto+Condensed:wght@300;400&family=Vina+Sans&display=swap" rel="stylesheet">
+    <style>
+        .material-symbols-outlined {
+          border: none;
+          cursor: pointer;
+          background-color: #36004d;
+          border-radius: 50%;
+          font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 24
+        }
+    </style>
+</head>
+<body>
+    <div class="settings">
+       <label>
+            <img class="profilePic" id="profilePic" onclick="ProfileChange()">
+       </label>
+       <input type="file" id="imageInput" style="display: none;">
+       <p class="nameSelf">Name
+            <button class="material-symbols-outlined">Edit</button>
+       </p>
+       <label class="settingsPage">
+            <label class="help" style="cursor: pointer;">Help</label>
+            <div class="divider"></div>
+            <label class="invite" style="cursor: pointer;">Invite Friend</label>
+       </label>
+    </div>
+</body>
