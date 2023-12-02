@@ -1,92 +1,76 @@
-*{
-    color: white;
-}
 body{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 0px;
-}
-.chat{
-    display: flex;
     flex-direction: column;
-    height: 750px;
-    width: 400px;
-    background-color: #36004d;
-    border-radius: 20px;
+    margin: 0;
+    padding: 0;
+    background-color: #3c3151;
+    color: white;
+    height: 100vh;
 }
-.topMenu{
-    width: 100%;
+.userName{
     display: flex;
     flex-direction: row;
-    font-size: medium;
-    height: 75px;
+    align-items: center;
+    gap: 20px;
+    height: 8%;
+    width: 100%;
+}
+.Name{
+    font-size: 28px;
+}
+.Status{
+    font-size: 15px;
 }
 .profilePic{
-    height: 30px;
-    width: 30px;
-    align-self: center;
-    margin: 10px 10px;
-    padding: 10px 10px;
-    background-color: white;
+    border: 5px 5px;
+    padding: 5px 5px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
     border: 2px solid violet;
+    background-color: white;
 }
-.container{
+.chatpage{
     display: flex;
     flex-direction: column;
-    height: 100%;
-}
-.chatName{
-    font-size: 25px;
-    padding: 0;
-    margin-top: 10px;
-    margin-bottom: 2px;
-}
-.status{
-    font-size: 15px;
-    padding: 0;
-    margin-top: 0px;
-    font-weight: 10%;
-}
-.chatPage{
-    width: 100%;
-    height: 605px;
+    height: 84%;
+    border-top: 2px solid violet;
+    border-bottom: 2px solid violet;
     overflow-x: hidden;
     overflow-y: scroll;
-    scroll-behavior: smooth;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
-    padding: 10px 10px 10px 10px;
 }
-.typeArea{
+.chatpage::-webkit-scrollbar{
+    display: none;
+}
+.bottomBar{
     display: flex;
-    align-items: center;
-    height: 70px;
-}
-.message{
-    border: none;
-    height: 94%;
-    border-bottom-left-radius: 20px;
-    width: 80%;
-    font-size: large;
-    align-items: center;
-    color: black;
+    justify-content: center;
+    padding: 2px 2px;
+    width: 100%;
+    height: 6%;
+    bottom: 0.5%;
+    position: fixed;
 }
 .inbox{
     display: flex;
-    background-color: #e63900;
-    width: 40%;
-    border-radius: 10px 10px 10px 0px;
-    text-align: center;
-    padding: 5px 20px;
+    width: 60%;
+    background-color: red;
+    margin-left: 1%;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    border-radius: 0px 10px 10px 10px;
 }
 .sent{
     display: flex;
+    width: 60%;
     background-color: violet;
-    width: 30%;
+    padding: 5px 5px;
+    margin: 5px 5px;
     margin-left: auto;
-    border-radius: 10px 10px 0px 10px;
-    text-align: center;
-    padding: 5px 20px;
+    border-radius: 10px 0px 10px 10px;
+}
+.search{
+    width: 78.5%;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
 }
