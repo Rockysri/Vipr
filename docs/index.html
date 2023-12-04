@@ -5,17 +5,21 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.">
         <title>Android Large 1</title>
         <link rel="stylesheet" href="android_large_1.css">
+        <script src="socket.io/socket.io.js"></script>
 
+        
     </head>
     <body >
+        <script src="app.js" type="text/javascript"></script> 
         <div id="box1">
             <img id="logo" src="logo-transparent-png.png" width="150px">
             <br><br>
             <input id="uname" type="text" placeholder="    USERNAME">
-            <br><br>
+            <br><br> 
             <input id="pass" type="text" placeholder="    PASSWORD">
             <br><br>
-            <button type="button" id="sub">LOGIN</button>
+            <button type="button" onclick="getinp()" id="sub">LOGIN</button>
         </div>
+           
     </body>
 </html>

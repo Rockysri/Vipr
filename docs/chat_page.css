@@ -6,6 +6,7 @@ body{
     background-color: #3c3151;
     color: white;
     height: 100vh;
+    overflow: hidden;
 }
 .userName{
     display: flex;

@@ -1,12 +1,13 @@
 *{
     width:100%;
     /*height:100%;*/
+    overflow: hidden;
 }
 body{
     display:flex;
     align-items: center;
     justify-content: center;
-    padding:20px 0px;
+    
 }
 #box1{
     position: relative;
@@ -14,6 +15,7 @@ body{
    padding-bottom: 10%;
    padding-left: 5%;
    padding-right: 5%;*/
+   margin: 0px;
    height: 100%;
    width:100%;
    padding:5%;
@@ -21,10 +23,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid;
-    border-color:black;
-    border-radius: 24px;
-    background: linear-gradient(purple,rgb(214, 41, 237));
+    background: linear-gradient(rgba(128, 0, 128, 0.596),rgba(79, 17, 179, 0.534));
 }
 #uname{
     border:0px;
