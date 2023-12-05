@@ -1,45 +1,67 @@
 *{
     width:100%;
-    /*height:100%;*/
+    height:100%;
     overflow: hidden;
+    font-family: 'Nova Square',serif;
 }
 body{
     display:flex;
     align-items: center;
     justify-content: center;
+    margin: 0px 0px;
+    height: 100%;
+    width:100%;
     
 }
 #box1{
-    position: relative;
+    overflow: hidden;
+    position:absolute;
   /* padding-top:10%;
    padding-bottom: 10%;
    padding-left: 5%;
    padding-right: 5%;*/
-   margin: 0px;
+   margin: 0px 0px;
    height: 100%;
    width:100%;
-   padding:5%;
+   padding: .75em .5em;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(128, 0, 128, 0.596),rgba(79, 17, 179, 0.534));
+    background: linear-gradient(rgb(102, 0, 102),rgb(76, 0, 138));
 }
 #uname{
-    border:0px;
-    border-color:lightgray;
-    border-radius: 30px;
+    display: flex;
+    flex-grow: true;
     height:40px;
     width:250px;
-    box-shadow: 3px 3px 1px purple;
+    resize: vertical;
+
+	border: none;
+	outline: none;
+	border-bottom: .2em solid rgb(42, 223, 255);
+	background: rgba(purple, .2);
+	border-radius: .2em 0 0 0;
+
+    padding-left: 1.25em;
+	color: rgb(0, 0, 0);
 }
+
 #pass{
-    border:0px;
-    border-radius: 30px;
+    display: flex;
+    flex-grow: true;
     height:40px;
     width:250px;
-    background-color: pu;
-    box-shadow: 3px 3px 1px purple;
+    resize: vertical;
+
+	border: none;
+	outline: none;
+	border-bottom: .2em solid rgb(42, 223, 255);
+	background: rgba(purple, .2);
+	border-radius: .2em 0 0 0;
+
+    padding-left: 1.25em;
+	color: rgb(0, 0, 0);
 }
 #sub{
     border:0px;
@@ -48,7 +70,7 @@ body{
     width:150px;
     background-color:white;
     font-size: large;
-    font-style: italic;
+
     font-weight: 100;
     color: purple;
     box-shadow: 3px 3px 1px purple;

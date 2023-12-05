@@ -64,13 +64,15 @@ body{
 .select{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-   
+    text-align: center;
     background-color: darkviolet;
     margin:5px;
+    margin-top: 20px;
     margin-bottom: 0px;;
     height:50%;
     padding-left: 13px;
     padding-top: 2px;
+    justify-content: center;
 }
 
 #circle

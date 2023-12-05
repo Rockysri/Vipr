@@ -1,6 +1,6 @@
 
 window.onload = (event)=>{
-alert("hi");
+console.log("Loaded");
 }
 console.log("hi");
 
