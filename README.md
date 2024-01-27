@@ -1,4 +1,4 @@
-# Vipr
-A chat app with privacy --> Vipr 
+# Nova
+A chat app with privacy --> Nova
 
 
